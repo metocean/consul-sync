@@ -1,4 +1,3 @@
-consul-sync
-===========
+# Consul Sync
 
-Keep updated a file's contents based on the value of a consul key
+Keep a file's contents updated based on the value of a consul key

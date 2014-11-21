@@ -1,0 +1,23 @@
+{
+  "name": "consul-sync",
+  "version": "0.0.1",
+  "description": "Keep a file's contents updated based on the value of a consul key",
+  "bin": {
+    "consul-sync": "bin/consul-sync.js"
+  },
+  "dependencies": {
+    "minimist": "^1.1.0",
+    "redwire-consul": "^1.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:metocean/consul-sync.git"
+  },
+  "author": "Thomas Coats",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/metocean/consul-sync/issues"
+  },
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/metocean/consul-sync"
+}
