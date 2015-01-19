@@ -22,7 +22,7 @@ httpAddr = argv['http-addr']
 key = argv._[0]
 filename = argv._[1]
 
-consul = require 'redwire-consul'
+consul = require 'consul-utils'
 fs = require 'fs'
 
 new consul.KV httpAddr, key, (configurations) ->

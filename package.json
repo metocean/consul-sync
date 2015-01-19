@@ -1,6 +1,6 @@
 {
   "name": "consul-sync",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Keep a file's contents updated based on the value of a consul key",
   "bin": {
     "consul-sync": "bin/consul-sync.js"
